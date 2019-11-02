@@ -1,1 +1,15 @@
-<h1>Work in progress.</h1>
+<script>
+  import Card from "./components/Card.svelte";
+</script>
+
+<style>
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
+<div class="app">
+  <Card />
+</div>
